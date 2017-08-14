@@ -1,7 +1,7 @@
 FROM ubuntu
 
 RUN apt-get update -qq && \
-	apt-get install -qq -y oracle-java8-installer curl
+	apt-get install -qq -y curl
 
 ENV LANG C.UTF-8
 
